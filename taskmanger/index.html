@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="taskManager">
+        <h2>Task Manager</h2>
+        <input type="text" id="taskInput" placeholder="Enter a new task...">
+        <button id="addTaskButton">Add Task</button>
+        <div class="filterButtons">
+            <button id="allTasks">All</button>
+            <button id="pendingTasks">Pending</button>
+            <button id="completedTasks">Completed</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="taskManager.js"></script>
+</body>
+
+</html>
